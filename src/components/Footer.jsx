@@ -48,7 +48,7 @@ const Footer = () => {
         <div>
           <h3 className="text-lg font-semibold mb-4">Biz ijtimoiy tarmoqlarda</h3>
           <div className="flex space-x-4">
-            <a href="#" className="hover:text-blue-400"><FaTelegramPlane size={20} /></a>
+            <a href="https://t.me/uzsmc" className="hover:text-blue-400"><FaTelegramPlane size={20} /></a>
             <a href="#" className="hover:text-pink-400"><FaInstagram size={20} /></a>
             <a href="#" className="hover:text-blue-500"><FaLinkedin size={20} /></a>
             <a href="#" className="hover:text-red-500"><FaYoutube size={20} /></a>
