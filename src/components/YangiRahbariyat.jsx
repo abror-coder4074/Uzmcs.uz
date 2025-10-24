@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const leaders = [
   {
-    name: "Tursunob Sobir Turdiyevich",
+    name: "Tursunov Sobir Turdiyevich",
     title: "Direktor",
     description:
       "Sergeli Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi Direktori, pedagogika fanlari doktori, professor",
@@ -17,14 +17,14 @@ const leaders = [
     img: "https://optim.tildacdn.one/tild3965-3263-4131-a230-633435316538/-/resize/600x800/-/format/webp/IMG_4078.JPG.webp",
   },
   {
-    name: "Dr. Anvar Z.",
+    name: "Xaltursunova Xalida Muhammadiyevna",
     title: "Direktor O'rinbosari",
     description:
       "Sergeli Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi ishlab chiqarish ta'limi bo'yicha direktor o'rinbosari",
     img: "https://optim.tildacdn.one/tild6564-6433-4761-a565-316336623132/-/resize/520x/-/format/webp/photo_2025-10-15_14-.jpg.webp",
   },
   {
-    name: "Dr. Dilshod R.",
+    name: "Boboyev Lutfullo Ne'matovich",
     title: "Direktor O'rinbosari",
     description:
       "Sergeli Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi yoshlar bilan ishlash bo'yicha direktor o'rinbosari.",
