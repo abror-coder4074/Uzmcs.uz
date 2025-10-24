@@ -13,6 +13,7 @@ import Umumkasbiy from "./pages/Kafedralar/Umumkasbiy";
 import Hamshiralik from "./pages/Kafedralar/Hamshiralik";
 import Klinikfanlar from "./pages/Kafedralar/Klinikfanlar";
 import Yonalishlar from "./pages/Yonaishlar/Yonalishlar";
+import ScrollToTop from "./components/ScrollToTop";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -26,6 +27,7 @@ const App = () => {
 
   return (
     <div className="overflow-x-hidden">
+      <ScrollToTop />
       <Header />
 
       <Routes>

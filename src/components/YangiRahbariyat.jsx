@@ -34,7 +34,7 @@ const leaders = [
 
 export default function Raxbariyat() {
   return (
-    <section className="relative py-24 bg-gradient-to-b from-blue-50 to-white overflow-hidden">
+    <section id="leadership" className="relative py-24 bg-gradient-to-b from-blue-50 to-white overflow-hidden">
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute -top-40 -left-20 w-[600px] h-[600px] bg-blue-200/40 rounded-full blur-3xl animate-pulse"></div>
         <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-sky-100/30 rounded-full blur-3xl"></div>

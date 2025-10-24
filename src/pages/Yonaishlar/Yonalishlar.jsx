@@ -3,7 +3,7 @@ import React from "react";
 const yonalishlar = [
     {
         title: "Hamshiralik ishi",
-        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQBpbGdjyOucIC0az5GtOjPubUYu5ha_3aFQ&s",
+        img: "https://storage.kun.uz/source/6/m-duZ-NDbemk0lK4KELrHTLHeFiFJDdU.jpg",
         desc: "40910203 - Hamshiralik ishi ",
         prop: "Kvalifikasiya nomi  I .Tibbiyot hamshirasi  2. Maktab va maktabgacha ta’lim tashkiloti hamshirasi  3. Fizioterapivtik(massaj) xonalari hamshirasi",
         time: "Ta'lim muddati: 3 yil",
@@ -11,7 +11,7 @@ const yonalishlar = [
     },
     {
         title: "Fel'dsherlik ishi",
-        img: "https://optim.tildacdn.one/tild6230-3863-4433-a536-383739373731/-/cover/720x800/center/center/-/format/webp/photo.jpg.webp",
+        img: "https://cdn-icons-png.flaticon.com/512/5996/5996294.png",
         desc: "4091020 I - Feldsherlik ishi",
         prop: "Kvalifikasiya nomi  I .Shoshilinch va tez tibbiy yordam ko‘rsatish stansiya (bo‘ lim) feldsheri  2. Oilaviy shifokor yordamchisi.",
         time: "Ta'lim muddati: 3 yil",
@@ -19,7 +19,7 @@ const yonalishlar = [
     },
     {
         title: "Farmatsiya ishi ",
-        img: "https://optim.tildacdn.one/tild6239-6233-4330-b737-626333343930/-/cover/720x800/center/center/-/format/webp/farmacevt.jpg.webp",
+        img: "https://www.doridarmon.uz/uploads/news/fa263bd6469091bc5a17a271ceca6ece.jpg",
         desc: "40910401 - Farmatsiya ishi",
         prop: "Kvalifikasiya nomi  I .Dori preparatlari ishlab chiqarish operatori 2. Dori vositalarini saqlash, tarqatish va ta’minlash bo’yicha farmâsevt assistenti ",
         time: "Ta'lim muddati: 3 yil",
@@ -27,7 +27,7 @@ const yonalishlar = [
     },
     {
         title: "Stomatologiya ishi",
-        img: "https://optim.tildacdn.one/tild3031-6336-4737-b934-653235613837/-/cover/720x800/center/center/-/format/webp/photo.jpg.webp",
+        img: "https://dentist-plus.com/kcfinder/upload/images/stomatolog-lechit-zubi.jpeg",
         desc: "50910101 - Stomatologiya ishi",
         prop: "Kvalifikasiya nomi  I .Kvalifikasiya nomi 2. Stomatolog yordamchis",
         time: "Ta'lim muddati: 3 yil",
@@ -35,7 +35,7 @@ const yonalishlar = [
     },
     {
         title: "Tibbiyot brigadasi hamshirasi",
-        img: "https://optim.tildacdn.one/tild6662-6661-4266-b635-373736393061/-/cover/720x800/center/center/-/format/webp/images.jpg.webp",
+        img: "https://oyina.uz/storage/posts/April2022/MvyVezk1RAQToGvKSj0C.jpg",
         desc: "40910203 - Tibbiyot brigadasi hamshirasi",
         prop: "Kvalifikasiya nomi  I .Tibbiyot hamshirasi  2. Maktab va maktabgacha ta’lim tashkiloti hamshirasi  3. Fizioterapivtik(massaj) xonalari hamshirasi",
         time: "Ta'lim muddati: 3 yil",
@@ -43,7 +43,7 @@ const yonalishlar = [
     },
     {
         title: "Funktsional diagnostika ishi",
-        img: "https://optim.tildacdn.one/tild6638-6132-4335-b439-613732613039/-/cover/720x800/center/center/-/format/webp/noroot.jpg.webp",
+        img: "https://zhivitsakursk.ru/wp-content/uploads/2025/03/diagnoz.jpg",
         desc: "50910205- Funktsional diagnostika ishi",
         prop: "Kvalifikasiya nomi  I ..Funktsional diagnostika va tibbiy laboratoriya ishi mutaxassisi",
         time: "Ta'lim muddati: 3 yil",

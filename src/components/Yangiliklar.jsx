@@ -73,7 +73,7 @@ const NewsCard = ({ item, reverse }) => {
 
 const Yangiliklar = () => {
   return (
-    <section className="py-24 bg-gradient-to-b from-white to-blue-50 overflow-hidden">
+    <section id="news" className="py-24 bg-gradient-to-b from-white to-blue-50 overflow-hidden">
       <div className="max-w-7xl mx-auto px-6">
         <motion.h2
           initial={{ opacity: 0, y: -30 }}

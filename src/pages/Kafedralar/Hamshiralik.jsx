@@ -3,7 +3,6 @@ import React from "react";
 const Hamshiralik = () => {
     return (
         <div className="bg-gray-50 text-gray-800">
-            {/* HERO QISMI */}
             <section className="relative bg-gradient-to-r from-blue-600 to-blue-400 text-white py-24 text-center">
                 <div className="max-w-5xl mx-auto px-4">
                     <h1 className="text-5xl font-bold mb-4">Hamshiralik ishi kafedrasi</h1>
@@ -16,7 +15,7 @@ const Hamshiralik = () => {
             </section>
             <section className="max-w-7xl mx-auto px-6 py-16 grid md:grid-cols-2 gap-10 items-center">
                 <img
-                    src="https://occupations-container.r2.rolecatcher.com/578.webp"
+                    src="https://www.doridarmon.uz/uploads/news/2e9e30ee72899147d54d008d4393a957.jpg"
                     alt="Kafedra rasmi"
                     className="rounded-2xl shadow-lg"
                 />
@@ -39,7 +38,6 @@ const Hamshiralik = () => {
                 </div>
             </section>
 
-            {/* KAFEDRA MUDIRI */}
             <section className="py-20 bg-white">
                 <div className="max-w-6xl mx-auto px-6 text-center">
                     <h2 className="text-3xl font-bold text-gray-800 mb-8">

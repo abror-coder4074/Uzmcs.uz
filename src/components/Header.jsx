@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link as RouterLink } from "react-router-dom";
+import { Link as ScrollLink } from "react-scroll";
 import { Menu, X, ChevronDown } from "lucide-react";
 
 const Header = () => {
@@ -9,12 +10,12 @@ const Header = () => {
 
   const links = [
     { name: "Bosh sahifa", href: "/" },
-    { name: "Biz haqimizda", href: "#about" },
-    { name: "Yo'nalishlar", href: "yonalishlar" },
-    { name: "Rahbariyat", href: "#" },
+    { name: "Biz haqimizda", scrollTo: "about" }, 
+    { name: "Yo'nalishlar", href: "/yonalishlar" },
+    { name: "Rahbariyat", scrollTo: "leadership" },
     { name: "Kafedralar", dropdown: true },
-    { name: "Yangiliklar", href: "#" },
-    { name: "Aloqa", href: "#" },
+    { name: "Yangiliklar", scrollTo: "news" },
+    { name: "Aloqa", scrollTo: "contact" },
   ];
 
   const kafedralar = [
@@ -60,24 +61,35 @@ const Header = () => {
                   onMouseLeave={() => setKafedraHover(false)}
                 >
                   {kafedralar.map((item) => (
-                    <Link
+                    <RouterLink
                       key={item.name}
                       to={item.href}
                       className="block px-5 py-3 text-gray-700 hover:bg-blue-50 hover:text-[#0077b6] transition"
                     >
                       {item.name}
-                    </Link>
+                    </RouterLink>
                   ))}
                 </div>
               </div>
+            ) : link.scrollTo ? (
+              <ScrollLink
+                key={link.name}
+                to={link.scrollTo}
+                smooth={true}
+                duration={500}
+                offset={-80} 
+                className="text-gray-700 font-medium hover:text-[#0077b6] transition cursor-pointer"
+              >
+                {link.name}
+              </ScrollLink>
             ) : (
-              <Link
+              <RouterLink
                 key={link.name}
                 to={link.href}
                 className="text-gray-700 font-medium hover:text-[#0077b6] transition"
               >
                 {link.name}
-              </Link>
+              </RouterLink>
             )
           )}
           <button className="bg-[#0077b6] text-white px-4 py-2 rounded-full hover:bg-[#0096c7] transition">
@@ -106,36 +118,47 @@ const Header = () => {
                     {link.name}
                     <ChevronDown
                       size={16}
-                      className={`transform transition ${
-                        kafedraOpen ? "rotate-180" : ""
-                      }`}
+                      className={`transform transition ${kafedraOpen ? "rotate-180" : ""
+                        }`}
                     />
                   </button>
 
                   {kafedraOpen && (
                     <div className="flex flex-col items-center mt-2 gap-2">
                       {kafedralar.map((item) => (
-                        <Link
+                        <RouterLink
                           key={item.name}
                           to={item.href}
                           className="text-gray-600 hover:text-[#0077b6] transition text-sm"
                           onClick={() => setOpen(false)}
                         >
                           {item.name}
-                        </Link>
+                        </RouterLink>
                       ))}
                     </div>
                   )}
                 </div>
+              ) : link.scrollTo ? (
+                <ScrollLink
+                  key={link.name}
+                  to={link.scrollTo}
+                  smooth={true}
+                  duration={500}
+                  offset={-80}
+                  className="text-gray-700 font-medium hover:text-[#0077b6] transition cursor-pointer"
+                  onClick={() => setOpen(false)}
+                >
+                  {link.name}
+                </ScrollLink>
               ) : (
-                <Link
+                <RouterLink
                   key={link.name}
                   to={link.href}
                   onClick={() => setOpen(false)}
                   className="text-gray-700 font-medium hover:text-[#0077b6] transition"
                 >
                   {link.name}
-                </Link>
+                </RouterLink>
               )
             )}
             <button className="bg-[#0077b6] text-white px-6 py-2 rounded-full hover:bg-[#0096c7] transition">
